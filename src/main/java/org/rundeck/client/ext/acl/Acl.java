@@ -1362,7 +1362,7 @@ public class Acl
             }
             policies = Policies.load(options.getDir());
         } else if (options.isConfigDir()) {
-//            log("Using configured Rundeck etc dir: " + configDir);
+            log("Using configured Rundeck etc dir: " + options.getConfigDir());
             if (!options.getConfigDir().isDirectory()) {
                 throw new RuntimeException("File: "
                                            + options.getConfigDir()
