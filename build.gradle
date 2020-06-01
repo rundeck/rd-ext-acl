@@ -11,6 +11,16 @@ plugins {
 apply plugin: 'com.github.johnrengelman.shadow'
 
 group 'org.rundeck.cli.ext'
+
+
+scmVersion {
+    ignoreUncommittedChanges = true
+    tag {
+        prefix = 'v'
+        versionSeparator = ''
+    }
+}
+
 version=scmVersion.version
 sourceCompatibility = 1.8
 
