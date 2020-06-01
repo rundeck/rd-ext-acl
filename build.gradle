@@ -25,7 +25,7 @@ repositories {
 
 ext.toolbeltVersion = '0.2.12'
 ext.rdVersion='1.2.3'
-ext.rundeckVersion='3.2.5-SNAPSHOT'
+ext.rundeckVersion='3.2.7-20200515'
 shadowJar{
 
 }
