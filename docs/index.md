@@ -1,6 +1,8 @@
-rd acl - Test and generate Rundeck ACL policy files.
+`rd acl` - Test and generate Rundeck ACL policy files.
 
 This is an extension for [rd](https://github.com/rundeck/rundeck-cli). (Currently included with the `rd` tool by default.)
+
+* [Source code on github](https://github.com/rundeck/rd-ext-acl)
 
 ## Synopsis
 
