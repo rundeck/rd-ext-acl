@@ -1,1 +1,5 @@
-theme: jekyll-theme-tactile
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
