@@ -1,3 +1,8 @@
+title: rd acl
+description: Test and generate Rundeck ACL policy files
+twitter_username: rundeck
+github_username:  rundeck
+github_url: https://github.com/rundeck/rd-ext-acl
 markdown: kramdown
 theme: minima
 exclude:
