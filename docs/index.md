@@ -42,8 +42,8 @@ action as logged in the Rundeck AUDIT log.
 
 See:
 
-- [ACL Policy syntax](https://docs.rundeck.com/docs/manual/document-format-reference/aclpolicy-v10.md)
-- [Access Control Policy](https://docs.rundeck.com/docs/administration/security/authorization.md)
+- [ACL Policy syntax](https://docs.rundeck.com/docs/manual/document-format-reference/aclpolicy-v10.html)
+- [Access Control Policy](https://docs.rundeck.com/docs/administration/security/authorization.html)
 
 ## Options
 
@@ -119,7 +119,7 @@ validate (test command) or for by: clause (create command).
 **Resource Options:**
 
 Resources are characterized as either "specific resources", or "resource types"
-(see [Specific Resources and Resource Types](https://docs.rundeck.com/docs/administration/security/authorization.md#specific-resources-and-resource-types)). You can specify "resource types" using the `-G, --generic <kind>` option. All specific resources can
+(see [Specific Resources and Resource Types](https://docs.rundeck.com/docs/administration/security/authorization.html#specific-resources-and-resource-types)). You can specify "resource types" using the `-G, --generic <kind>` option. All specific resources can
 be specified directly using one of the options, or by type using `-R, --resource <type>` in combination with `-b, --attributes <attr=val ...>`.
 
 `-G,--generic <kind>`
@@ -131,7 +131,7 @@ be specified directly using one of the options, or by type using `-R, --resource
 `-b,--attributes <key=value ...>`
 : Attributes for the resource. A sequence of key=value pairs, multiple pairs can follow with a space. Use a value of '?' to see suggestions.
 
-The following define [Project scope resources](https://docs.rundeck.com/docs/administration/security/authorization.md#project-scope-resources-and-actions):
+The following define [Project scope resources](https://docs.rundeck.com/docs/administration/security/authorization.html#project-scope-resources-and-actions):
 
 `-A,--adhoc`
 : Adhoc execution (project context)
@@ -148,7 +148,7 @@ The following define [Project scope resources](https://docs.rundeck.com/docs/adm
 `-t,--tags <tag,..>`
 : Node tags. If specified, the resource match will be defined using 'contains'. (project context)
 
-The following define [Application scope resources](https://docs.rundeck.com/docs/administration/security/authorization.md#application-scope-resources-and-actions):
+The following define [Application scope resources](https://docs.rundeck.com/docs/administration/security/authorization.html#application-scope-resources-and-actions):
 
 `-s,--storage <path/file>`
 : Storage path/name. (application context)
@@ -521,6 +521,6 @@ The validation failed
 
 ## See Also
 
-[`aclpolicy`](https://docs.rundeck.com/docs/manual/document-format-reference/aclpolicy-v10.md)
+[`aclpolicy`](https://docs.rundeck.com/docs/manual/document-format-reference/aclpolicy-v10.html)
 
-[Access Control Policy](https://docs.rundeck.com/docs/administration/security/authorization.md)
+[Access Control Policy](https://docs.rundeck.com/docs/administration/security/authorization.html)
