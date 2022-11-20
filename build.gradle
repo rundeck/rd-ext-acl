@@ -45,7 +45,7 @@ dependencies {
 
     shadow "org.rundeck.cli:rd-cli-lib:${rdVersion}"
     shadow "org.rundeck.cli-toolbelt:toolbelt-jewelcli:$toolbeltVersion"
-    shadow "org.yaml:snakeyaml:1.26"
+    shadow "org.yaml:snakeyaml:1.33"
 
     implementation ("org.rundeck:rundeck-authz-yaml:$rundeckVersion"){
         exclude(group:'org.yaml', module:'snakeyaml')
