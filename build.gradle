@@ -40,8 +40,8 @@ shadowJar{
 
 dependencies {
 
-    compileOnly "org.projectlombok:lombok:1.18.24"
-    annotationProcessor "org.projectlombok:lombok:1.18.24"
+    compileOnly "org.projectlombok:lombok:1.18.32"
+    annotationProcessor "org.projectlombok:lombok:1.18.32"
 
     shadow "org.rundeck.cli:rd-cli-lib:${rdVersion}"
     shadow "org.rundeck.cli-toolbelt:toolbelt-jewelcli:$toolbeltVersion"
